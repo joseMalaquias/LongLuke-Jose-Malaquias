@@ -21,3 +21,8 @@ List of datasets used:
 
 The finetuned baseline models of LUKE were obtained from [Huggingface/studio-ousia](https://huggingface.co/studio-ousia).
 
+You can build the environment I used through the **requirements.txt** file. After activating your virtualenv run:
+`pip install -r requirements.txt`
+
+
+

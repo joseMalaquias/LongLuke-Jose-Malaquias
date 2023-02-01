@@ -1,0 +1,4 @@
+RESULTS 
+ correct = 306933, gold = 344810, predicted = 344810, precision: 0.850151097705983 
+ Recall: 0.850151097705983 
+ F1: 0.850151097705983
