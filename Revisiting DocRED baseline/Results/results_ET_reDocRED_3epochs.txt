@@ -1,0 +1,5 @@
+RESULTS 
+ num_correct = 6515, num_gold = 13018, num_predicted = 13018 
+precision: 0.5004609002919035 
+ Recall: 0.5004609002919035 
+ F1: 0.5004609002919035

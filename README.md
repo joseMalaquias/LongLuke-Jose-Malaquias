@@ -21,8 +21,24 @@ List of datasets used:
 
 The finetuned baseline models of LUKE were obtained from [Huggingface/studio-ousia](https://huggingface.co/studio-ousia).
 
-You can build the environment I used through the **requirements.txt** file. After activating your virtualenv run:
+You can build the environment I used through the **requirements.txt** file. After activating your Python3.7 virtualenv, run:
 `pip install -r requirements.txt`
+
+### How to run Long-LUKE finetune for ReDocRED:
+```
+	python Revisiting DocRED/load_model.py
+	python Revisiting DocRED/finetune.py
+
+```
+or
+```
+	python Revisiting DocRED/evaluate_REDOCRED.py
+```
+and to generate the *JSON* file for the Codalab evaluation:
+`	python Revisiting DocRED/Codalab_evaluation.py`
+
+
+
 
 
 

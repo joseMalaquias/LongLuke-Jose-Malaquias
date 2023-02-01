@@ -63,7 +63,7 @@ def extendDataset():
     num_positive = 0
     num_negative = 0
 
-    f = open('test_revised.json')
+    f = open('/path_to_project/LongLuke-Jose-Malaquias/Datasets/REDOCRED/test_revised.json')
     data = json.load(f)
 
 
