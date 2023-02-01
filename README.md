@@ -26,16 +26,15 @@ You can build the environment I used through the **requirements.txt** file. Afte
 
 ### How to run Long-LUKE finetune for ReDocRED:
 ```
-	python Revisiting DocRED/load_model.py
-	python Revisiting DocRED/finetune.py
-
+python Revisiting DocRED/load_model.py
+python Revisiting DocRED/finetune.py
 ```
 or
 ```
-	python Revisiting DocRED/evaluate_REDOCRED.py
+python Revisiting DocRED/evaluate_REDOCRED.py
 ```
 and to generate the *JSON* file for the Codalab evaluation:
-`	python Revisiting DocRED/Codalab_evaluation.py`
+`python Revisiting DocRED/Codalab_evaluation.py`
 
 
 
