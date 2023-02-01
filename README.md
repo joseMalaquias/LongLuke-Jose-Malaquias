@@ -9,7 +9,7 @@ Source code of the Masters Thesis - IST Lisboa
 Recent Pre-trained Language Models (PLM), based on self-attention and the Transformer neural architecture, produce a contextualized representation of words. Leveraging such representations in other neural networks enabled state-of-the-art results in the corresponding downstream Natural Language Processing (NLP) tasks. A new line of research focuses on studying how to incorporate named entity components within a PLM. The motivation is that named entities convey essential information that can further improve the performance of a model in a NLP task. However, current entity-focused models face limitations, such as the inability to process long inputs. This is especially noticeable in recent complex tasks which demand good understanding over long sequences of text. In this article, we propose Long-LUKE, a model based on the entity-aware LUKE PLM that is capable of processing long sequences of text. In particular, it obtains interesting results on four well-known datasets: Open Entity, FIGER and DocRED (entity typing), and TACRED and ReDocRED~(relation classification).
 
 
-The model's weights can be found in this
+Some of the model's weights can be found in this
 [link](https://drive.google.com/drive/folders/1QX_3tfyu8A0C6HpOSnhgODJFQHpIIKZb?usp=share_link).
 
 List of datasets used:
